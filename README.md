@@ -3,10 +3,10 @@
 ======================
 Polish description
 ======================
-Jako projekt z Akademii C# planujemy stworzyæ "Game of Life" z dodatkowymi funkcjami:
-- mo¿liwoœæ zapisu stanu gry i wczytania go ponownie,
-- tryb piaskownicy, w którym wystêpuje wiêcej rodzajów komórek, mozna zmieniaæ zasady gry i eksperymentowaæ,
-- poza tradycyjnym losowaniem mapy opcja nanoszenia ¿ywych komórek rêcznie przy pomocy róznych pêdzli.
+Jako projekt z Akademii C# planujemy stworzyÄ‡ "Game of Life" z dodatkowymi funkcjami:
+- moÅ¼liwoÅ›Ä‡ zapisu stanu gry i wczytania go ponownie,
+- tryb piaskownicy, w ktÃ³rym wystÄ™puje wiÄ™cej rodzajÃ³w komÃ³rek, moÅ¼na zmieniaÄ‡ zasady gry i eksperymentowaÄ‡,
+- poza tradycyjnym losowaniem mapy opcja nanoszenia Å¼ywych komÃ³rek rÄ™cznie przy pomocy rÃ³Å¼nych pÄ™dzli.
 
 
 ======================
