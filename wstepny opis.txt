@@ -36,4 +36,4 @@ Ewelina Omernik (eweomern):
 Tomasz Krupa (krupatomasz):
 - tryb piaskownicy
 - grafika (gra)
-- możliwość zmiany stanu planszy przez użytkownika
+- możliwość zmiany stanu planszy przez użytkownika (pędzel)
