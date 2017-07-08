@@ -19,8 +19,7 @@
                Height="59" Width="420" 
                FontSize="36" />
 
-        <StackPanel 
-            Name="MainMenuPanel"
+        <StackPanel x:Name="MainMenuPanel"
             HorizontalAlignment="Left" 
             Height="250" 
             Margin="10,60,0,0" 
@@ -52,8 +51,7 @@
                 FontSize="20" 
                 Click="exitButton_Click"/>
         </StackPanel>
-        <StackPanel 
-            Name="NewGamePanel"
+        <StackPanel x:Name="NewGamePanel"
             HorizontalAlignment="Left" 
             Height="235" 
             Margin="10,60,0,0" 
