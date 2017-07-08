@@ -14,33 +14,77 @@
         <Label x:Name="label" 
                Content="Welcome to Game of Life!" 
                HorizontalAlignment="Center" 
-               Margin="0,-210,0,0" 
-               VerticalAlignment="Center" 
+               Margin="0,0,0,0" 
+               VerticalAlignment="Top" 
                Height="59" Width="420" 
                FontSize="36" />
-        <Button x:Name="newGameButton" 
+
+        <StackPanel 
+            Name="MainMenuPanel"
+            HorizontalAlignment="Left" 
+            Height="250" 
+            Margin="10,60,0,0" 
+            VerticalAlignment="Top" 
+            Width="497">
+            <Button x:Name="newGameButton" 
                 Content="New Game" 
                 HorizontalAlignment="Center" 
-                Margin="0,-70,0,0" 
+                Margin="0,25,0,0" 
                 VerticalAlignment="Center" 
                 Width="150"
                 Height="50"
-                FontSize="20"/>
-        <Button x:Name="loadGameButton" 
+                FontSize="20" Click="newGameButton_Click"/>
+            <Button x:Name="loadGameButton" 
                 Content="Load Game" 
                 HorizontalAlignment="Center" 
-                Margin="0,70,0,0" 
+                Margin="0,25,0,0" 
                 VerticalAlignment="Center" 
                 Width="150"
                 Height="50"
                 FontSize="20"/>
-        <Button x:Name="exitButton" 
+            <Button x:Name="exitButton" 
                 Content="Exit" 
                 HorizontalAlignment="Center" 
-                Margin="0,210,0,0" 
+                Margin="0,25,0,0" 
                 VerticalAlignment="Center" 
                 Width="150"
                 Height="50" 
+                FontSize="20" 
+                Click="exitButton_Click"/>
+        </StackPanel>
+        <StackPanel 
+            Name="NewGamePanel"
+            HorizontalAlignment="Left" 
+            Height="235" 
+            Margin="10,60,0,0" 
+            VerticalAlignment="Top" 
+            Width="497"
+            Visibility="Hidden">
+            <Button x:Name="normalGameButton" 
+                Content="Normal Game" 
+                HorizontalAlignment="Center" 
+                Margin="0,25,0,0" 
+                VerticalAlignment="Center" 
+                Width="150"
+                Height="50"
                 FontSize="20"/>
+            <Button x:Name="sandboxGameButton" 
+                Content="Sandbox Mode" 
+                HorizontalAlignment="Center" 
+                Margin="0,25,0,0" 
+                VerticalAlignment="Center" 
+                Width="150"
+                Height="50"
+                FontSize="20"/>
+            <Button x:Name="backToMMButton" 
+                Content="Back" 
+                HorizontalAlignment="Center" 
+                Margin="0,25,0,0" 
+                VerticalAlignment="Center" 
+                Width="150"
+                Height="50" 
+                FontSize="20" 
+                Click="backToMMButton_Click"/>
+        </StackPanel>
     </Grid>
 </Window>

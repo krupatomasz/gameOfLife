@@ -29,5 +29,16 @@ namespace GameOfLife
         {
             Close();
         }
+
+        private void newGameButton_Click(object sender, RoutedEventArgs e)
+        {
+            MainMenuPanel.Visibility = Visibility.Hidden;
+            NewGamePanel.Visibility = Visibility.Visible;
+        }
+        private void backToMMButton_Click(object sender, RoutedEventArgs e)
+        {
+            NewGamePanel.Visibility = Visibility.Hidden;
+            MainMenuPanel.Visibility = Visibility.Visible;
+        }
     }
 }
